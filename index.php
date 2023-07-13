@@ -12,6 +12,12 @@ class Movie{
         $this->actors = $_actors;
         $this->rating = $_rating;
     }
+
+    public function getData(){
+        $movieInfo = "film: " . $this->title . " --- genere: " . $this->genre . " --- attore principale: " . $this->actors . " --- voto: " . $this->rating;
+
+        return $movieInfo;
+    }
 }
 
 
