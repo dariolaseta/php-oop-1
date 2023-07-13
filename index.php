@@ -23,5 +23,6 @@ class Movie{
 $Prisoners = new Movie("Prisoners", "Thriller", "Jake Gyllenhaal", "4,2/5");
 $Oldboy = new Movie("Old Boy", "Noir", "Choi Min-sik", "4,3/5");
 
-
+echo($Prisoners -> getData());
+echo($Oldboy->getData());
 ?>
