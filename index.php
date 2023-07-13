@@ -3,7 +3,15 @@
 class Movie{
     public $title;
     public $genre;
+    public $actors;
     public $rating;
+
+    public function __construct($_title, $_genre, $_actors, $_rating){
+        $this->title = $_title;
+        $this->genre = $_genre;
+        $this->actors = $_actors;
+        $this->rating = $_rating;
+    }
 }
 
 
