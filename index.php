@@ -20,19 +20,8 @@ class Movie{
     }
 }
 
+$Prisoners = new Movie("Prisoners", "Thriller", "Jake Gyllenhaal", "4,2/5");
+$Oldboy = new Movie("Old Boy", "Noir", "Choi Min-sik", "4,3/5");
+
 
 ?>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PHP oop 1</title>
-    </head>
-    <body>
-        
-    </body>
-</html>
